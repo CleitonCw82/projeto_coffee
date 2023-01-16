@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    max-width: 1360px;
+    margin: 0 auto;
+
+    background-image: linear-gradient(-45deg, #312351,
+    #0D0916,#000000, #0B0812, #151126);
+}
+
+/* Estudar flexbox */
+.header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header-logo {
+    margin-right: 140px;
+}
+
+.header-menu>a {
+    padding-right: 32px;
+    
+    color: rgb(221, 232, 236);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header-button {
+    margin-left: 130px;
+
+}
+
+.header-button button {
+    border: 1px solid #8257E5;
+    border-radius: 6px;
+    background: none;
+    padding: 11px;
+    color: #FFFFFF;
+}
+
+/* Section 1 */
+
+.section-coffe {
+    margin: 0;
+    margin-top: 40px;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-title h1 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 109px;
+    color: #FFFFFF;
+}
+
+.section-image-coffee {
+
+    display: flex;
+    justify-content: center;
+}
+
+.section-image-coffee img {
+    width: 90%;
+}
